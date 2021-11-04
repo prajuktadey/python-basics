@@ -7,11 +7,11 @@ class Duck:#definition of a class
         print('Walks like a duck.')
         
 def main():
-    donald= Duck()#variable called donald
+    prajukta= Duck()#variable called donald
     #we assign donald from the class and that makes donald an object
     #donald is now an object from the class Duck
-    donald.quack()#the method is quack
-    donald.walk()
+    prajukta.quack()#the method is quack
+    prajukta.walk()
     
 if __name__ == '__main__': main()#auto-instantiate
 

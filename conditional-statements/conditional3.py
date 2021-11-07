@@ -1,4 +1,4 @@
-if True:
+if False:
     print('if true')
 elif False:
     print('elif true')

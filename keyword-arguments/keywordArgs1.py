@@ -1,5 +1,5 @@
 def main():
-    kitten(Buffy='meow', Zilla='grr', Angel='rawr')
+    kitten(Buffy='meow', Zilla='grr', Angel='rawr')# this is a dictionary
     
 def kitten(**kwargs):
     if len(kwargs):
@@ -10,6 +10,6 @@ def kitten(**kwargs):
 if __name__=='__main__' : main()
 
 # list arguments have one asterisk before them
-
+# we use two asterisks for a dictionary
     
 

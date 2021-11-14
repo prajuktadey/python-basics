@@ -7,7 +7,7 @@ def main():
     except ValueError:
         print('I caught a Value Error')
     except:
-        print(f'unknown error: {sys.exec_info()}')# to know more about errors not know to us
+        print(f'unknown error: {sys.exc_info()}')# to know more about errors not know to us
     else:
         print('Good Job!')
         

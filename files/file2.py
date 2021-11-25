@@ -1,3 +1,4 @@
+#writing text files
 def main():
     infile = open('C:\\learning\\python-basics\\files\\lines.txt', 'rt')
     outfile = open('C:\\learning\\python-basics\\files\\lines-copy.txt', 'wt')
